@@ -26,11 +26,13 @@ header {
     padding: 20px;
     background: #1e1e1e;
     border-radius: 10px;
+    gap: 20px;
 }
 
 header h1 {
     font-size: 24px;
     font-weight: 700;
+    margin-right: auto;
 }
 
 nav ul {
@@ -65,7 +67,7 @@ section {
 .container {
     display: flex;
     align-items: center; /* Alinha verticalmente a imagem e o texto */
-    gap: 0px; /* Ajuste o espaçamento entre a imagem e o texto */
+    gap: 20px; /* Ajuste o espaçamento entre a imagem e o texto */
 }
 
 /* Estilizando a imagem */
