@@ -1,0 +1,103 @@
+/* Importando uma fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Resetando margens e preenchimentos padrão */
+* /* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilizando o corpo da página */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    background: #1e1e1e;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Contêiner para imagem e texto */
+.container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
+    gap: 0px; /* Ajuste o espaçamento entre a imagem e o texto */
+}
+
+/* Estilizando a imagem */
+.minha-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    object-fit: cover;
+    border: 3px solid #00aaff;
+    margin: 0; /* Remover qualquer margem extra */
+}
+
+/* Estilo do texto */
+.container p {
+    font-size: 18px;
+    color: #fff;
+    margin: 0; /* Remover margens extras do texto */
+    padding: 0; /* Garantir que não haja preenchimento que possa afastar o texto */
+    max-width: 400px; /* Limita a largura do texto */
+}
+
+/* Título */
+h2 {
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+}
